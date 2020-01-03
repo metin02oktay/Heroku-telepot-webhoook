@@ -11,7 +11,7 @@ import requests
 
 TOKEN='TELEGRAM-TOKEN'
 def selam():
-    bot.sendMessage(chat_id,"iyim, sen nasılsın \xF0\x9F\x98\x8C ",parse_mode='Markdown') 
+    bot.sendMessage(chat_id,"iyiyim, sen nasılsın \xF0\x9F\x98\x8C ",parse_mode='Markdown') 
     
 
 def handle(msg):
