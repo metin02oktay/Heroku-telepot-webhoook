@@ -29,7 +29,7 @@ def handle(msg):
     if (("text" in msg) !=  True):
         bot.sendMessage(chat_id, f'Hahaha gönderdiğin emoji çok komik \xF0\x9F\x98\x82	*{user}*\n',parse_mode='Markdown',reply_to_message_id=msg_id)
         
-    elif msg['text'].upper() == "nasılsın?":
+    elif msg['text'] == "nasılsın?":
         selam()
     else:
         #gelen metin mesajı: msg['text']  onu geri gönderelim, 
