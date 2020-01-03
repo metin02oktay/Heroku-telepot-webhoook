@@ -60,7 +60,7 @@ def pass_update():
     return 'OK'
 if __name__ == '__main__':
     try:
-        bot.setWebhook("https://<APP-NAME>.herokuapp.com/webhook") #APPNAME yazan yere heroku da kurduğunuz makinanın ismini verin, telegramla iletişim için
+        bot.setWebhook("https://APPNAME.herokuapp.com/webhook") #APPNAME yazan yere heroku da kurduğunuz makinanın ismini verin, telegramla iletişim için
     # Sometimes it would raise this error, but webhook still set successfully.
     except telepot.exception.TooManyRequestsError:
         pass
